@@ -56,7 +56,6 @@ const EnergySelector = ({ onEnergyConfirm }) => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          width: "70%",
           mt: 2,
           mb: 2,
         }}
