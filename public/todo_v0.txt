@@ -1,0 +1,44 @@
+TODO:
+RESEARCH (1)
+DECIDE (9)
+CREATE ART (6)
+CODE (13)
+
+Research: simple card game mechanics
+Decide: main numerical mechanics
+Decide: evaluation system
+Decide: reward system (per level)
+Decide: story / flavor text
+Decide: pre-game content / message
+Decide: post-game content / message
+Decide: art style/system
+Decide: music
+Decide: local storage system (updates per level!)
+Create art assets: CARDS
+Create art assets: CARD CONTENT
+Create art assets: ICONS
+Create art assets: DISTRACTIONS
+Create art assets: MENU
+Create art assets: ETC.
+Code: wind-down activity selector
+Code: pre-game stuff
+Code: card display / selector system
+Code: card management within level
+Code: new cards across levels
+Code: distraction health management
+Code: time management
+Code: post-game stuff
+Code: menu
+Code: external links / sharing
+Code: implementation on website
+Code: local storage system
+
+Wind down activity from group + me!:
+Turn lights to really really dim
+Gentle swaying, rolling on the couch
+Bedtime ritual: predictable + reliable music
+Meditate
+Journal
+
+DONE:
+Code: bedtime selector

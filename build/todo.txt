@@ -1,0 +1,22 @@
+TODO:
+DONE Make healthbar + label for each distraction
+DONE Make or import a clock for middle of screen with bedtime countdown
+DONE Move score text to where its circles had been
+DONE Make explainer screen before game start
+DONE Replace you lose alert with button: Try again?
+DONE Replace you win alert with screen: You did it. You defeated all distractions. You [verb] for N minute(s) before bed. And you obeyed the bedtime.
+DONE Add play again button (back to title) and twitter and website links to win screen.
+DONE Add bed emoji to win screen.
+MAYBE DONE? Make it more fun! Change the reduction speeds for each circle pair, between 0.75-1.25x
+DONE Find three songs from epistemic sound(?)
+DONE Make a nighttime energy screen to choose the music, put it between bedtime and activity
+DONE Import three songs and connect to energy
+
+BY 3PM
+Make build
+Make repository on github
+Commit to github
+Add to strangestloop.io
+Commit to strangestloop.io
+
+BONUS:
