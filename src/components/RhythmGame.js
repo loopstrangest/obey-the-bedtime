@@ -34,7 +34,7 @@ const RhythmGame = ({ bedtime, onRetry, onWin, setMinutes }) => {
     return Math.floor(Math.random() * (max - min) + min);
   }
 
-  const [interval, setIntervalValue] = useState(getRandomInterval(2, 4));
+  const [interval, setIntervalValue] = useState(getRandomInterval(1, 3));
 
   function shuffle(array) {
     var currentIndex = array.length,
@@ -91,7 +91,7 @@ const RhythmGame = ({ bedtime, onRetry, onWin, setMinutes }) => {
   const handleKeyDown = (event) => {
     if (event.code === "Space") {
       handleClick();
-      setIntervalValue(getRandomInterval(1, 4)); // generate a new interval
+      setIntervalValue(getRandomInterval(1, 3)); // generate a new interval
       if (gameOver) {
         onRetry();
       }
@@ -108,7 +108,6 @@ const RhythmGame = ({ bedtime, onRetry, onWin, setMinutes }) => {
 
   const handleClick = () => {
     setScorePosition(position);
-    console.log("Circle clicked!");
     let score;
     const difference = Math.abs(redRadius - whiteRadius);
     if (difference <= 5) {
@@ -158,9 +157,7 @@ const RhythmGame = ({ bedtime, onRetry, onWin, setMinutes }) => {
     const intervalId = setInterval(() => {
       if (redRadius > 0) {
         setRedRadius(redRadius - 1);
-        console.log("Red circle has shrunk");
       } else {
-        console.log("Red circle has disappeared!");
         handleClick();
       }
     }, interval);

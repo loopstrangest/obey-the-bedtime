@@ -6,7 +6,7 @@ import CheckIcon from "@mui/icons-material/Check";
 const energies = [
   {
     name: "Hidden",
-    emoji: "😶‍🌫️",
+    emoji: "😶",
     sound: "/sounds/ES_Shadowed - John B. Lund.mp3",
   },
   {

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styled, { keyframes } from "styled-components";
 import { Button } from "@mui/material";
 import { gsap } from "gsap";
+import star from "../images/star.png"; // replace with your actual path to star.png
 
 // Define keyframes for your animations
 const descend = keyframes`
@@ -33,6 +34,14 @@ const Moon = styled.span`
   transform: translateX(-50%);
   font-size: 5em;
   color: white;
+`;
+
+const StarCluster = styled.div`
+  position: absolute;
+  height: 100px; // adjust as needed
+  width: 64px;
+  background-image: url(${star});
+  background-size: cover;
 `;
 
 const TitlePage = ({ onTitleConfirm }) => {
@@ -97,6 +106,16 @@ const TitlePage = ({ onTitleConfirm }) => {
         </Button>
       )}
       {step > 3 && <Moon>🌙</Moon>}
+      {step > 3 && (
+        <>
+          <StarCluster style={{ top: "10%", left: "20%" }} />
+          <StarCluster style={{ top: "30%", left: "60%" }} />
+          <StarCluster style={{ top: "50%", left: "30%" }} />
+          <StarCluster style={{ top: "70%", left: "10%" }} />
+          <StarCluster style={{ top: "15%", left: "80%" }} />
+          <StarCluster style={{ top: "65%", left: "70%" }} />
+        </>
+      )}
     </div>
   );
 };
